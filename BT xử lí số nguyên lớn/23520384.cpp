@@ -50,12 +50,16 @@ void addZeroBeforeSmallerNumber(int X[], int Y[], int& len_x, int& len_y) {
 	}
 }
 
-///This function finds the larger number
+///
+/// <summary>
+/// This function finds the larger number
 /// <para>determind whether X is bigger than Y, return 1. 
 /// if X is smaller, return -1.
 /// otherwise, return 0
 /// </para>
-/// /// <param name="X">X la mang so nguyen</param>
+/// <param name="X">X la mang so nguyen</param>
+/// <param name="Y">Y la mang so nguyen</param>
+/// <param name="len">len la kich thuoc cua mang</param>
 ///</summary>
 int findBiggerNumber(int X[], int Y[], int len) {
 	for (int i = 0; i < len; i++) {
